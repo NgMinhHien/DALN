@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
@@ -15,3 +16,14 @@ export const connectDB = async (): Promise<void> => {
         process.exit(1);
     }
 };
+=======
+import { Sequelize } from 'sequelize';
+
+const sequelize = new Sequelize('rental_db', 'username', 'password', {
+    host: 'localhost',
+    dialect: 'mysql', // or 'postgres', 'sqlite', 'mssql'
+    logging: false, // Set to true to see SQL queries in the console
+});
+
+export default sequelize;
+>>>>>>> 75587217831ccb93ec56abe4b25481f9a4506e1b

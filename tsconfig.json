@@ -10,5 +10,9 @@
     "rootDir": "./src"
   },
   "include": ["src/**/*"],
+<<<<<<< HEAD
   "exclude": ["node_modules"]
+=======
+  "exclude": ["node_modules", "**/*.spec.ts"]
+>>>>>>> 75587217831ccb93ec56abe4b25481f9a4506e1b
 }
