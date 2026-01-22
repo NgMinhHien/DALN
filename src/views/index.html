@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentBox - Tìm Phòng Trọ Cho Sinh Viên</title>
+    <link rel="stylesheet" href="../public/css/styles.css">
+</head>
+<body>
+    <header>
+     <h1>RentBox</h1>
+    </header>
+    <main>
+        <section id="home"> 
+            
+            <div id="search-section">
+                <h3>Tìm Kiếm Phòng</h3>
+                <form id="search-form">
+                    <input type="text" id="search-location" placeholder="Nhập địa điểm...">
+                    <input type="number" id="search-price" placeholder="Giá tối đa...">
+                    <button type="submit">Tìm Kiếm</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="rooms">
+            <h2>Danh Sách Phòng Có Sẵn</h2>
+            <div id="room-list">
+                <ul id="room-items">
+                    <!-- Room items will be dynamically inserted here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../public/js/main.js"></script>
+</body>
+</html>
