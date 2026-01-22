@@ -8,7 +8,7 @@ const sampleRooms = [
         price: 3500000,
         area: '25m²',
         facilities: 'Wifi, Điều hòa, Máy giặt',
-        image: 'https://via.placeholder.com/300x200?text=Phong+1'
+        image: ''
     },
 ];
 

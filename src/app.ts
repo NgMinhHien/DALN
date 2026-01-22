@@ -14,7 +14,6 @@ app.use(cors());
 app.use(json());
 app.use(express.static(path.join(__dirname, '../public')));
 
-// Routes
 app.use('/api/rooms', roomRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/bookings', bookingRoutes);
