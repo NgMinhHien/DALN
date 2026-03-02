@@ -1,0 +1,36 @@
+# Dependencies
+DALN/vendor/
+DALN/node_modules/
+
+# Environment
+DALN/.env
+DALN/.env.backup
+
+# Compiled assets
+DALN/public/hot
+DALN/public/storage
+DALN/storage/*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# PHPUnit
+.phpunit.result.cache
+
+# Laravel
+DALN/storage/framework/cache/data/*
+DALN/storage/framework/sessions/*
+DALN/storage/framework/views/*
+
+# Logs
+DALN/storage/logs/*.log
+
+# Docker
+docker-compose.override.yml
